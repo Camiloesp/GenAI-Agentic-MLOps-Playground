@@ -1,2 +1,42 @@
+# Day 1
 .vercel
 ToCancelWhenDone.txt
+
+# Day 2
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# dependencies
+week1/day2/saas/node_modules
+week1/day2/saas/.pnp
+week1/day2/saas/.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+week1/day2/saas/coverage
+
+# next.js
+week1/day2/saas/.next
+week1/day2/saas/out
+
+# production
+week1/day2/saas/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# typescript
+week1/day2/saas/*.tsbuildinfo
+week1/day2/saas/next-env.d.ts
