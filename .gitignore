@@ -1,11 +1,12 @@
-# Day 1
+# ------------------------------------------------ Day 1 ------------------------------------------------ 
 .vercel
 ToCancelWhenDone.txt
 
-# Day 2
+# ------------------------------------------------  Day 2 ------------------------------------------------ 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 # dependencies
-week1/day2/saas/node_modules
+#week1/day2/saas/node_modules
+node_modules/
 week1/day2/saas/.pnp
 week1/day2/saas/.pnp.*
 .yarn/*
@@ -40,3 +41,5 @@ yarn-error.log*
 # typescript
 week1/day2/saas/*.tsbuildinfo
 week1/day2/saas/next-env.d.ts
+
+# ------------------------------------------------  Day 3 ------------------------------------------------ 
