@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@clerk/nextjs": "^6.35.5",
+    "@microsoft/fetch-event-source": "^2.0.1",
+    "@tailwindcss/typography": "^0.5.19",
+    "react-datepicker": "^8.10.0",
+    "react-markdown": "^10.1.0",
+    "remark-breaks": "^4.0.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/react-datepicker": "^6.2.0"
+  }
+}
